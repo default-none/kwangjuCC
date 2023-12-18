@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1px;
+}
+*{box-sizing: border-box;}
+/*************************************/
+/* .w90{width: 90%; margin: 0 auto;} */
+.w70{width: 70%; margin: 0 auto;}
+/* .w60{width: 60%; margin: 0 auto;} */
+/* .w50{width: 50%; margin: 0 auto;} */
+/*************************************/
+input, button{
+    font-family: 'Noto Sans KR', sans-serif;
+    border: none;
+    outline: none;
+    background: none;}
+/*********************/
+.w100{width: 100%;}
+.w1400{width: 1400px; margin: 0 auto;}
+.w1200{width: 1200px; margin: 0 auto;}
+.w90{width: 90%; margin: 0 auto;}
+.w80{width: 80%; margin: 0 auto;}
+.sp_common{background: url(../img/sp_common.png) 0 0 no-repeat;}
+.bg_color1{background-color: red;}
+.bg_color2{background-color: green;}
+.bg_color3{background-color: blue;}
+/* ************************************************/
+.df{display: flex;}
+.sa{display: flex; justify-content: space-around;}
+.se{display: flex; justify-content: space-evenly;}
+.sb{display: flex; justify-content: space-between;}
+.dc{display: flex; justify-content: center;}
+.ac{align-items: center;}
+/**************************************************/
+@media screen and (max-width:1920px){
+    header, main, footer{width: 100%;}
+}
+@media screen and (max-width:1600px){
+    header, main, footer{width: 100%;}
+}
+@media screen and (max-width:1280px){
+    header, main, footer{width: 100%;}
+}
+@media screen and (max-width:960px){
+    
+}
+@media screen and (max-width:800px){
+    
+}
+@media screen and (max-width:640px){
+    
+}
+
